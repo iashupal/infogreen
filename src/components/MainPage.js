@@ -5,7 +5,7 @@ import {Slider} from './content/slider/Slider';
 import {Footer} from './content/footer/Footer';
 import {Search} from './content/search/Search';
 import {TipEvent} from './content/tipEvent/TipEvent';
-// import {Product} from './content/product/Product';
+import {Product} from './content/product/Product';
 
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
@@ -18,7 +18,7 @@ export const MainPage = ()=>{
                     <Header/>
                     <Slider/>
                     <Search/>
-                    {/* <Product/> */}
+                    <Product/>
                     <TipEvent/>
                     <Footer/>
                     
