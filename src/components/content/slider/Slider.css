@@ -8,7 +8,7 @@
     margin: 0 auto;
     float: left;
     position: relative;
-    height: 100%;
+    /* height: 100%; */
 }
 
 .slider .slider_inner{
@@ -16,5 +16,5 @@
     margin: 0 auto;
     float: left;
     position: relative;
-    height: 100%;
+    /* height: 100%; */
 }
