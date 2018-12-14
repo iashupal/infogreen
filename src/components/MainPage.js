@@ -6,6 +6,7 @@ import {Footer} from './content/footer/Footer';
 import {Search} from './content/search/Search';
 import {TipEvent} from './content/tipEvent/TipEvent';
 import {Product} from './content/product/Product';
+import {ProdSpec} from './content/ProdSpec';
 
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
@@ -21,6 +22,8 @@ export const MainPage = ()=>{
                     <Product/>
                     <TipEvent/>
                     <Footer/>
+                    <ProdSpec/>
+                    {/* {this.props.children} */}
                     
                   
                     {/* <SliderDemo/> */}
