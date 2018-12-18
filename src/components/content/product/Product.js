@@ -1,6 +1,6 @@
 import React from 'react';
 import './Product.css';
-import {BrowserRouter as Router, Route, Link} from "react-router-dom";
+import {BrowserRouter as Router, Route, Link, NavLink} from "react-router-dom";
 import {Laundary} from '../product/laundary/Laundary';
 import {Fabric} from '../product/fabric/Fabric';
 import {Dishwashing} from '../product/dishwashing/Dishwashing';
@@ -91,7 +91,7 @@ export const Product=()=>{
                         <Route path="/odor" component={Odor} />
                         <Route path="/other" component={Other} />
                         
-                        {/* <Route path="/other" component={Other} /> */}
+                       
                     </div> 
                     <div className="content-info-below">
                         <Route exact path="/soap" exact={true} component={Soap} />

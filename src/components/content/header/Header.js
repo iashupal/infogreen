@@ -18,7 +18,7 @@ export const Header = ()=>{
                     <img src={MOMGUIDE_LOGO_WHITE} alt=""/>
                     {/* <img src={ require('../../assets/images/MOMGUIDE_LOGO_WHITE.png') } /> */}
                 </div>
-                <Router>
+                {/* <Router> */}
                     <div className="header_router">
                         <ul>
                          
@@ -66,7 +66,7 @@ export const Header = ()=>{
                    
                    
 
-                </Router>
+                {/* </Router> */}
             </div>
 
         </div>

@@ -7,6 +7,7 @@ import {Search} from './content/search/Search';
 import {TipEvent} from './content/tipEvent/TipEvent';
 import {Product} from './content/product/Product';
 import {ProdSpec} from './content/ProdSpec';
+// import {Route} from './content/product/Route';
 
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
@@ -23,6 +24,8 @@ export const MainPage = ()=>{
                     <TipEvent/>
                     <Footer/>
                     <ProdSpec/>
+                    {/* <ProdSpec/> */}
+                    
                     {/* {this.props.children} */}
                     
                   

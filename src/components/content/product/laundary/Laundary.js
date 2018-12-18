@@ -2,8 +2,11 @@ import React from 'react';
 import './Laundary.css';
 import { Link } from "react-router-dom";
 import fabric1 from '../../../../assets/images/fabric1.jpg';
-import { link } from 'fs';
-import { ProdSpec } from '../../../productSpecification/ProdSpec';
+import Route from '../Route';
+
+// import { link } from 'fs';
+// import { ProdSpec } from '../../../productSpecification/ProdSpec';
+import {ProdSpec} from '../../ProdSpec';
 
 // export const Laundary =()=>{
     export class Laundary extends React.Component{
@@ -11,6 +14,14 @@ import { ProdSpec } from '../../../productSpecification/ProdSpec';
             super();
             
         }
+        // componentDidMount(){
+        //     const params = new URLSearchParams();
+        //     params.append("name", `${this.props.description}`);
+        // }
+        // onClick = () => {
+        //     this.props.itemSelected(this.props.description);
+        //     this.props.setItemLoading(true);
+        // };
         // prodList(){
         //     let path = 'newPath';
         //     this.setState({
@@ -20,7 +31,7 @@ import { ProdSpec } from '../../../productSpecification/ProdSpec';
         // }
         render(){
             return(
-                // <Link to="/" onClick={this.onClick}>
+                // <Link to={`/product/${this.props.desciption}}`} onClick={this.onClick}>
                     <div className="laundary">
                         <div className="tip-heading">
                                         <i class="fa fa-heart" aria-hidden="true"></i>
@@ -60,7 +71,7 @@ import { ProdSpec } from '../../../productSpecification/ProdSpec';
                                 </div>
                             </div>
                     </div>
-                // </Link>    
+                //  </Link>    
             );
         }    
 

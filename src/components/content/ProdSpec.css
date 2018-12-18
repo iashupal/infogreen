@@ -34,7 +34,7 @@
 }
 
 .prod_detail{
-    width: 95%;
+    width: 100%;
     margin: 30px auto;
     position: relative;
     padding: 0 15px;
@@ -144,13 +144,16 @@
     float: left;
     position: relative;
     clear: both;
-    padding: 12px;
+    padding: 5px;
 }
 
 .prod-rt_div_inr i, .prod-rt_div_inr-1 i{
     font-size: 20px;
     padding-right: 15px;
     color: gray;
+}
+.prod-rt_div_inr-1 img{
+    width: 50px;
 }
 
 .prod-rt_div_inr p{
@@ -190,13 +193,13 @@
 
 .prod_addn_info i{
     display: inline-block;
-    font-size: 20px;
+    font-size: 18px;
     color: gray;
-    padding-right: 10px;
+    padding-right: 20px;
 }
 .prod_addn_info h1{
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     color: gray;
     letter-spacing: 1px;
@@ -205,13 +208,13 @@
 
 .prod_addn_info p{
     display: inline-block;
-    font-size: 14px;
+    font-size: 12px;
     letter-spacing: 1px;
     color: gray;
 }
 
 .product_table{
-    width: 100%;
+    width: 95%;
     margin: 0 auto;
     position: relative;
     float: left;
@@ -228,11 +231,12 @@
     width: 100%;
     margin: 0 auto;
     clear: both;
+    padding-left: 20px;
 }
 
 .prod_addn_info.prod-ingt-info i{
     display: inline-block;
-    font-size: 20px;
+    font-size: 18px;
     color: gray;
     padding-right: 10px;
     margin-top: 15px;
@@ -269,9 +273,13 @@
 
 table thead tr th{
     color: gray;
-    background-color: lightgray;
+    background-color: #f7f7f7;
     font-size: 14px;
     letter-spacing: 1px;
+}
+
+.prod-ingr-tbl table tr td{
+    background-color: transparent;
 }
 
 table thead tr td{
@@ -280,6 +288,226 @@ table thead tr td{
     letter-spacing: 1px;
 }
 
-table thead tr td p{
+table thead tr td p.prod_ingr_desp{
     margin-bottom: 0;
+    color: black;
+    font-weight: bold;
+}
+
+td img.icon_img{
+    width: 35px;
+}
+
+.danger-icons{
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+}
+.danger-icons-inr{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.danger-icons-inr .dngr-icon-inr-div{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.dngr-icon-inr-div img{
+    width: 50px;
+}
+
+.dngr-icon-inr-div p{
+    color: gray;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* table tr td{
+    padding: 0;
+} */
+
+.prod-ingr-tbl table tr td p{
+    margin-bottom: 0;
+}
+/* .prod-ingr-tbl .table{
+    background-color: #f7f7f7;
+} */
+
+.alpha-icon{
+    width: 100%;
+    margin: 0 auto 50px;
+    position: relative;
+}
+
+.alpha-icon-info{
+    display: inline-block;
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.alpha-icon-info img{
+    width: 30px;
+    display: inline-block;
+    padding-right: 7px;
+}
+.alpha-icon-info p{
+    color: gray;
+    font-size: 12px;
+    text-align: center;
+    display: inline-block;
+}
+
+.pie-chart-info{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.pie-chart-info .pie-icon{
+    width: 10%;
+    display: inline-block;
+    margin: 0 auto;
+    position: relative;
+    top: -14px;
+    color: gray;
+}
+
+.pie-chart-info .pie-info{
+    width: 90%;
+    display: inline-block;
+    position: relative;
+}
+
+.pie-icon h3{
+    font-size: 14px;
+    font-weight: 600;
+    color: gray;
+    letter-spacing: 1px;
+    margin-bottom: 2px;
+}
+.pie-icon p{
+    color: gray;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.modal-custom.modal-dialog.modal-dialog-centered{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.modal-custom-header.modal-header{
+    display: block;
+    padding-bottom: 0;
+}
+.modal-custom-header.modal-header img{
+    width: 40px;
+    float: left;
+}
+
+.modal-custom-header.modal-header h5{
+    color: gray;
+    text-align: center;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    float: left;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.modal-custom-header.modal-header p{
+    display: block;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    float: left;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #7d7d7d;
+}
+
+.btn{
+    position: relative;
+    top: -50px;
+}
+
+p.modal-para{
+    font-size: 14px;
+    color: gray;
+    background-color: #f7f7f7;
+    padding: 5px 20px;
+    letter-spacing: 1px;
+    color: #7d7d7d;
+
+}
+.popup-icon-detail{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto 10px;
+}
+
+.popup-icon-detail img{
+    width: 50px;
+}
+
+.popup-icon-detail p{
+    color: #7d7d7d;
+    margin-top: 10px;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.popup-ingr-para{
+    color: #bbbbbb;
+}
+
+.modal-custom-body.modal-body{
+    padding: 0;
+}
+
+.popup-icon-level{
+    width: 100%;
+    padding: 0 15px;
+}
+
+.popup-icon-level img{
+    width: 40px;
+    display: inline-block;
+}
+
+.popup-icon-level p{
+    display: inline-block;
+    font-size: 12px;
+    padding-left: 10px;
+    color: gray;
+    letter-spacing: 1px;
+
+}
+
+.popup-result{
+    width: 100%;
+    padding: 0 15px;
+    text-align: center;
+    color: #7d7d7d;
+}
+
+.pie-info h3{
+    font-size: 14px;
+    font-weight: 600;
+    color: gray;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+
+.pie-info p{
+    font-size: 13px;
+    color: gray;
+    letter-spacing: 1px;
+    line-height: initial;
 }
